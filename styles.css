@@ -28,3 +28,10 @@
     flex: 1 1 150px;
     margin: 5px;
 }
+
+
+.min_max_parent{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: minmax(150px, 25%) 1fr;
+}
