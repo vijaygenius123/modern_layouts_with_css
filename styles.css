@@ -17,3 +17,14 @@
     padding: 1.5em 1em;
     border-radius: 1em;
 }
+
+.flex_example .parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex_example  .box{
+    flex: 1 1 150px;
+    margin: 5px;
+}
