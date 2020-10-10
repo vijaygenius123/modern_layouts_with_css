@@ -1,0 +1,19 @@
+.grid_example .parent {
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.blue{
+    background: cornflowerblue;
+}
+
+.coral{
+    background: lightcoral;
+}
+
+.box{
+    padding: 1.5em 1em;
+    border-radius: 1em;
+}
